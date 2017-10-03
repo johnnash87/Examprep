@@ -1,0 +1,7 @@
+#Mon Oct 02 17:04:59 BST 2017
+base.0=C\:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4c99ba63b3ade5f143e726726fb9c31766bd9934
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d02569c277af543e469811af62aa48a2650ced2f\\classes.dex
+base.1=C\:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d02569c277af543e469811af62aa48a2650ced2f
+file.0=C\:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4c99ba63b3ade5f143e726726fb9c31766bd9934\\classes.dex

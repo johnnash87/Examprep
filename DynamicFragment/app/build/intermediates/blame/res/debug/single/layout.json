@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\ExamPrep\\DynamicFragment\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quote_fragment.xml",
+        "source": "C:\\ExamPrep\\DynamicFragment\\app\\src\\main\\res\\layout\\quote_fragment.xml"
+    },
+    {
+        "merged": "C:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_item.xml",
+        "source": "C:\\ExamPrep\\DynamicFragment\\app\\src\\main\\res\\layout\\title_item.xml"
+    },
+    {
+        "merged": "C:\\ExamPrep\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quote_fragment.xml",
+        "source": "C:\\ExamPrep\\app\\src\\main\\res\\layout\\quote_fragment.xml"
+    },
+    {
+        "merged": "C:\\ExamPrep\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\ExamPrep\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\ExamPrep\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_item.xml",
+        "source": "C:\\ExamPrep\\app\\src\\main\\res\\layout\\title_item.xml"
+    }
+]

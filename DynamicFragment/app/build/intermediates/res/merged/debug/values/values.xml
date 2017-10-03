@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Quotes">
+        <item>Dwarves info</item>
+        <item>Elves info</item>
+        <item>Goblins info</item>
+        <item>Hobbit info</item>
+        <item>Men info</item>
+        <item>Orc info</item>
+        <item>Troll info</item>
+    </string-array>
+    <string-array name="Titles">
+        <item>Dwarves</item>
+        <item>Elves</item>
+        <item>Goblins</item>
+        <item>Hobbits</item>
+        <item>Men</item>
+        <item>Orcs</item>
+        <item>Trolls</item>
+    </string-array>
+    <string name="app_name">FragmentDynamicLayout</string>
+</resources>

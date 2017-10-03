@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\ExamPrep\\DynamicFragment\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\ExamPrep\\DynamicFragment\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\ExamPrep\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\ExamPrep\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]
