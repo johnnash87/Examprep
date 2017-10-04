@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="Quotes">
-        <item>Dwarves info</item>
-        <item>Elves info</item>
-        <item>Goblins info</item>
-        <item>Hobbit info</item>
-        <item>Men info</item>
-        <item>Orc info</item>
-        <item>Troll info</item>
+        <item>rulers of the Vale of Arryn from the castle of the Eyrie. Integrated with the Kingdom of the North.</item>
+        <item>former vassals to House Tully, rulers of the Riverlands from the castle of Riverrun after usurping their positions after the Red Wedding.</item>
+        <item>rulers of the Iron Islands from the castle of Pyke. Divided, with members supporting either the Lannister or Stark/Targaryen cause.</item>
+        <item>the current royal house of the Seven Kingdoms from the Red Keep of Landing in the Crownlands and rulers of the Westerlands from the castle of Casterly Rock</item>
+        <item>rulers of the North from the castle of Winterfell. Recently retook their lands from House Bolton, and currently preparing for war against the Night King.</item>
+        <item>claimant royal house of the Seven Kingdoms, former royal house and rulers of the Crownlands from the castle of the Red Keep. Currently based at Dragonstone and preparing for war against the Night King.</item>
     </string-array>
     <string-array name="Titles">
-        <item>Dwarves</item>
-        <item>Elves</item>
-        <item>Goblins</item>
-        <item>Hobbits</item>
-        <item>Men</item>
-        <item>Orcs</item>
-        <item>Trolls</item>
+        <item>House Arryn</item>
+        <item>House Frey</item>
+        <item>House Greyjoy</item>
+        <item>House Lannister</item>
+        <item>House Stark</item>
+        <item>House Targaryen</item>
     </string-array>
     <string name="app_name">FragmentDynamicLayout</string>
 </resources>

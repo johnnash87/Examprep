@@ -1,7 +1,0 @@
-#Mon Oct 02 17:13:55 BST 2017
-base.0=C\:\\ExamPrep\\StaticFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c709d157f29ec3e6535195934b87b1a00dfdaa76
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\ExamPrep\\StaticFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_eecb2374450592becab0495491d07c7287e2af83\\classes.dex
-base.1=C\:\\ExamPrep\\StaticFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_eecb2374450592becab0495491d07c7287e2af83
-file.0=C\:\\ExamPrep\\StaticFragment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c709d157f29ec3e6535195934b87b1a00dfdaa76\\classes.dex

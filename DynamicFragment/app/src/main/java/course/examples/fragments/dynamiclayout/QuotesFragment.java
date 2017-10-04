@@ -28,7 +28,7 @@ public class QuotesFragment extends Fragment {
 		if (newIndex < 0 || newIndex >= mQuoteArrLen)
 			return;
 		mCurrIdx = newIndex;
-		mQuoteView.setText(QuoteViewerActivity.mQuoteArray[mCurrIdx]);
+		mQuoteView.setText(GotFamilyViewerActivity.mQuoteArray[mCurrIdx]);
 	}
 	
 	@Override
@@ -62,7 +62,7 @@ public class QuotesFragment extends Fragment {
 		super.onActivityCreated(savedInstanceState);
 
 		mQuoteView = (TextView) getActivity().findViewById(R.id.quoteView);
-		mQuoteArrLen = QuoteViewerActivity.mQuoteArray.length;
+		mQuoteArrLen = GotFamilyViewerActivity.mQuoteArray.length;
 	}
 
 	@Override

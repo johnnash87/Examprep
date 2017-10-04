@@ -45,34 +45,24 @@ public class JSONActivity extends Activity {
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "https://pastebin.com/raw/8PznRpXv";
+            String url = "https://raw.githubusercontent.com/btford/philosobot/master/quotes/cats.json";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);
             if (jsonStr != null) {
                 try {
-                    JSONArray lotr = new JSONArray(jsonStr);
+                    JSONArray quote = new JSONArray(jsonStr);
 
 
-                    // looping through All Cooks
-                    for (int i = 0; i < lotr.length(); i++) {
-                        JSONObject c = lotr.getJSONObject(i);
-                        String quote = c.getString("quote");
-                        String author = c.getString("author");
-                        String source = c.getString("source");
-                        String tags = c.getString("tags");
-                        String pub = c.getString("public");
+                    // looping through All Cats
+                    for (int i = 0; i < quote.length(); i++) {
+                        JSONObject c = quote.getJSONObject(i);
+                        String quotes = c.getString("quotes");
 
-                        // tmp hash map for single contact
                         HashMap<String, String> character = new HashMap<>();
 
-                        // adding each child node to HashMap key => value
-                        character.put("quote", quote);
-                        character.put("author", author);
-                        character.put("source", source);
-                        character.put("tags", tags);
-                        character.put("public", pub);
-                        // adding contact to contact list
+                        character.put("quotes", quotes);
+
                         charList.add(character);
                     }
                 } catch (final JSONException e) {
@@ -107,8 +97,8 @@ public class JSONActivity extends Activity {
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
             ListAdapter adapter = new SimpleAdapter(JSONActivity.this, charList,
-                    R.layout.list_item, new String[]{"quote", "author","source","tags","public"},
-                    new int[]{R.id.quote, R.id.author, R.id.source, R.id.tags, R.id.pub});
+                    R.layout.list_item, new String[]{"quotes"},
+                    new int[]{R.id.quote});
             lv.setAdapter(adapter);
         }
     }

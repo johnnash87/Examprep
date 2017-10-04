@@ -16,7 +16,7 @@ public class TitlesFragment extends ListFragment {
 	private static final String TAG = "TitlesFragment";
 	private ListSelectionListener mListener = null;
 
-	// Callback interface that allows this Fragment to notify the QuoteViewerActivity when  
+	// Callback interface that allows this Fragment to notify the GotFamilyViewerActivity when
 	// user clicks on a List Item  
 	public interface ListSelectionListener {
 		public void onListSelection(int index);
@@ -29,7 +29,7 @@ public class TitlesFragment extends ListFragment {
 		// Indicates the selected item has been checked
 		getListView().setItemChecked(pos, true);
 		
-		// Inform the QuoteViewerActivity that the item in position pos has been selected
+		// Inform the GotFamilyViewerActivity that the item in position pos has been selected
 		mListener.onListSelection(pos);
 	}
 
@@ -40,7 +40,7 @@ public class TitlesFragment extends ListFragment {
 		
 		try {
 
-			// Set the ListSelectionListener for communicating with the QuoteViewerActivity
+			// Set the ListSelectionListener for communicating with the GotFamilyViewerActivity
 			mListener = (ListSelectionListener) activity;
 		
 		} catch (ClassCastException e) {
@@ -71,7 +71,7 @@ public class TitlesFragment extends ListFragment {
 		// Set the list adapter for the ListView 
 		// Discussed in more detail in the user interface classes lesson  
 		setListAdapter(new ArrayAdapter<String>(getActivity(),
-				R.layout.title_item, QuoteViewerActivity.mTitleArray));
+				R.layout.title_item, GotFamilyViewerActivity.mTitleArray));
 
 		// Set the list choice mode to allow only one selection at a time
 		getListView().setChoiceMode(ListView.CHOICE_MODE_SINGLE);

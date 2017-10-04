@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Lord of The Rings Map of Britain Application</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="welcome">Welcome to the Lord of The Rings Map of Britain. Please select your favourite location on the map</string>
-    <string name="select">Select Favourite Location</string>
-    <string name="title_activity_main2">Main2Activity</string>
-
-</resources>

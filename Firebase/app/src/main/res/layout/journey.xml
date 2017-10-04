@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Journey Information"
+            android:text="Star Wars Fan Club"
             android:id="@+id/textViewUserEmail"
             android:layout_gravity="center_horizontal"
             />
@@ -29,19 +29,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editTextName"
-            android:hint="Name"/>
+            android:hint="Who is your favourite hero?"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editTextAddress"
-            android:hint="Address"/>
+            android:hint="Who is your favourite Villain?"/>
 
         <Button
             android:id="@+id/button_Save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save Journey"
+            android:text="Save information"
             android:layout_gravity="center_horizontal"/>
         <Button
             android:layout_margin="15dp"

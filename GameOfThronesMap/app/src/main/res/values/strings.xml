@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GameOfThronesMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="welcome">Welcome to the Game of Thrones Map of England. Please select your favourite location on the map</string>
+    <string name="select">Select Favourite Location</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

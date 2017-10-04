@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(firebaseAuth.getCurrentUser() !=null){
             finish();
-            startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
+            startActivity(new Intent(getApplicationContext(),Journey.class));
         }
 
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
